@@ -7,7 +7,11 @@
   </head>
   <body id="page-top">
     <h1>Welcome <%=Helpers.current_user(session).username %></h1>
+<<<<<<< HEAD
     <h3>Your Balance: <%=Helpers.current_user(session).balance %></h3>
+=======
+    Your current balance is: <%=Helpers.current_user(session).balance %>
+>>>>>>> 48d85eb43b53f580248b8a726ec61b5e00994c85
 
 <form action="/logout" method="post">
   <input type="submit" value="Log Out">
